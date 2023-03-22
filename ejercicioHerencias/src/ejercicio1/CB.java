@@ -1,14 +1,13 @@
 package ejercicio1;
 
-public class CB {
+public class CB extends CA{
 	int z;
 	public CB(int z) {
+		super(z,z);
 		this.z = z;
-		this.y=z;
-		this.x=z;
 
 	}
-	
+	@Override
 	public int suma() {
 		return x+y+this.z;
 	}

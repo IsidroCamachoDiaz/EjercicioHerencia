@@ -7,6 +7,7 @@ public class Principal {
 		//no es posible hacerlo
 		c.suma();
 
+		CA c2= new comparable();
 	}
 
 }
